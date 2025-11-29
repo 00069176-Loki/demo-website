@@ -31,8 +31,8 @@ jobs:
         run: |
           set -euo pipefail
           test -f index.html
-          test -f styles.css
-          test -f script.js
+          test -f style.css
+          test -f scripts.js
           echo "All required files found."
 
       # 3. Basic HTML checks (similar to earlier CI example)
