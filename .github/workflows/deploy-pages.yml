@@ -42,7 +42,7 @@ jobs:
           echo "Checking title and basic tags in index.html..."
           grep -q "<title>My Demo Site</title>" index.html
           grep -q "<h1>Welcome to My Demo Site</h1>" index.html
-          grep -q "script.css" index.html
+          grep -q "script.js" index.html
           echo "HTML looks good."
 
       # 4. Prepare files for Pages deployment
