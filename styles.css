@@ -1,81 +1,24 @@
-/* styles.css */
-
+/* Basic demo styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6; /* Improves readability */
-    background-color: #f8f8f8; /* Light background */
-    color: #333; /* Dark text color */
-}
-
-header {
-    background-color: #3498db; /* A nice blue */
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 40px;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em; /* Larger heading */
+    color: #2a7cff;
 }
 
-nav {
-    margin-top: 10px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    text-decoration: none; /* Remove underlines */
-    color: #3498db; /* Match header color */
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 3px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-}
-
-nav a:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+button {
+    padding: 10px 18px;
+    border: none;
+    background-color: #2a7cff;
     color: white;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-main {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Lighter shadow */
-}
-
-h2 {
-    color: #3498db; /* Match header color */
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-}
-
-footer {
-    margin-top: 30px;
-    padding: 10px;
-    text-align: center;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-}
-
-/* Optional: Add some spacing around paragraphs */
-p {
-    margin-bottom: 15px;
+button:hover {
+    opacity: 0.8;
 }
