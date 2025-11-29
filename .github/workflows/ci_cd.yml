@@ -25,7 +25,6 @@ jobs:
       - name: PHP Lint
         run: |
           set -euo pipefail
-          php -l index.html
           php -l process_form.php
           echo "PHP syntax OK"
 
